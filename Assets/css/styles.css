@@ -13,12 +13,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #9e2d2d;
+    background-color:red;
     color: #fff;
     }
 
     header h1 {
     font-size: 30px;
+    display: block;
+    display: grid;
+    justify-content: center;
+    text-align: center;
     }
 
     header p {
@@ -48,5 +52,59 @@
     margin-right: auto;
     max-width: 100%;
     border-radius: 50%;
+
+    }
+
+    main {
+    display: grid;
+    justify-content: center;
     
+    }
+
+    section {
+    background-color: red;
+    width: 5%;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid;
+    gap: 10px;
+    margin: 100px;
+    width: 1500px;
+    height: 350px;
+
+    flex-direction: column;
+    }
+
+    section h2{ 
+    background-color: grey;
+    border-radius: 20px;
+    border: 3px solid;
+    width: 33%;
+    padding: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 0.5%;
+    transform: translate(-50%, -50%) 
+    }
+
+    .contentcenter {
+    text-align: center;
+    margin: 70px;
+    font-size: 20px;
+    }
+
+    footer {
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: auto;
+    font-size: 30px;
     }
