@@ -1,0 +1,11 @@
+#link-container {
+    margin-left: 0;
+}
+
+#name-text {
+    font-size: 30px;
+}
+
+#name-text:hover, #links:hover {
+    color: red;
+}
