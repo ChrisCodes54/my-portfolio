@@ -8,8 +8,8 @@ export default function Footer() {
         
             
                 
-        <h1>hello</h1>
-           
+        
+
         
     
     </footer>
