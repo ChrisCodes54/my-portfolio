@@ -3,9 +3,13 @@
 }
 
 #name-text {
-    font-size: 30px;
+    font-size: 27px;
 }
 
 #name-text:hover, #links:hover {
     color: red;
+}
+
+#color-nav {
+    background-color: black;
 }
