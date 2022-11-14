@@ -13,10 +13,10 @@ export default function Footer() {
         <footer id='footer'>
             <Container fluid >
                 <Row>
-                    <Col id='icon'>
-                        <Linkedin color='white' />
+                    <Col id='icons'>
+                        <Linkedin color='white' id='linkedin' size={50} />
 
-                        <Github color='white' />
+                        <Github color='white' id='github' size={50}  />
 
                     </Col>
 
