@@ -8,15 +8,15 @@ import './style.css'
 export default function Header() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" variant="dark" id='color-nav'>
         <Container id='link-container'>
           <Navbar.Brand href="#home" id='name-text'>Christopher Tangarife</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto" id='links'>
-              <Nav.Link href="#aboutme">About Me</Nav.Link>
-              <Nav.Link href="#projects">Projects</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
+          <Navbar.Collapse id="responsive-navbar-nav" >
+            <Nav className="me-auto" id='font-size'>
+              <Nav.Link href="#aboutme" id='links'>About Me</Nav.Link>
+              <Nav.Link href="#projects" id='links'>Projects</Nav.Link>
+              <Nav.Link href="#contact" id='links'>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
