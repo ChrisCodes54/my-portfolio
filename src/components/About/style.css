@@ -1,6 +1,16 @@
 #col {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    
+    
 }
 
+#row {
+    min-height: 100%;
+}
 
+#container {
+    min-height: 100%;
+}
