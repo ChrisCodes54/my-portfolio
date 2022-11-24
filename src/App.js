@@ -12,9 +12,8 @@ function App() {
 	return (
 		<>
 			<Header />
-
 			<main>
-
+				
 				<Router>
 					<Routes>
 
@@ -25,7 +24,6 @@ function App() {
 					</Routes>
 
 				</Router>
-				
 			</main>
 
 			<Footer />
