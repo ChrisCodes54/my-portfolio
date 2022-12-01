@@ -11,22 +11,26 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<Header />
-			<main>
+			<Router>
 				
-				<Router>
+				<Header />
+				<main>
+
+
 					<Routes>
 
-							<Route exact path='/' element={<About/>}/>
-							<Route exact path='/projects' element={<Projects/>}/>
-							<Route exact path='/contact' element={<Contact/>}/>
+						<Route exact path="/" element={<About />} />
+						<Route exact path="/projects" element={<Projects />} />
+						<Route exact path="/contact" element={<Contact />} />
 
 					</Routes>
 
-				</Router>
-			</main>
 
-			<Footer />
+				</main>
+
+				<Footer />
+
+			</Router>
 		</>
 	);
 }
