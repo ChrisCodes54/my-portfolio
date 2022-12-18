@@ -3,11 +3,14 @@ import pc from '../../images/profile-picture.jpg'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Transitions from "../transitions";
 import './style.css'
 
 export default function About() {
   return (
+	<Transitions>
     <Container fluid>
+		<h1 id="about-me">About Me</h1>
 			<Row>
 				<Col>
 					<img src={pc} alt="Christopher Tangarife" />
@@ -40,7 +43,8 @@ export default function About() {
 				</Col>
 			</Row>
 		</Container>
-    
+
+    </Transitions>
    
   )
 }
