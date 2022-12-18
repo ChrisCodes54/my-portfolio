@@ -5,12 +5,14 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Transitions from "./pages/transitions";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
 	return (
 		<>
+		<Transitions>
 			<Router>
 				
 				<Header />
@@ -31,6 +33,8 @@ function App() {
 				<Footer />
 
 			</Router>
+
+			</Transitions>
 		</>
 	);
 }
