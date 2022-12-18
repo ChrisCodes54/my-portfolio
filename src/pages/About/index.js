@@ -8,6 +8,7 @@ import './style.css'
 export default function About() {
   return (
     <Container fluid>
+		<h1 id="about-me">About Me</h1>
 			<Row>
 				<Col>
 					<img src={pc} alt="Christopher Tangarife" />
