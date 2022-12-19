@@ -1,3 +1,24 @@
-#about-me{
+#about-me {
     text-align: center;
+}
+
+#picture-column {
+    display: flex;
+    justify-content: center;
+
+}
+
+#aboutmetext-column {
+    display: flex;
+  align-items: center;
+    text-align: center;
+}
+
+#profile-picture {
+    border-radius: 50%;
+}
+
+
+#aboutme-container {
+    padding-top: 7%;
 }
