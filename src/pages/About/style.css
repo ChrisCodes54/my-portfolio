@@ -8,6 +8,7 @@
     display: flex;
   align-items: center;
     text-align: center;
+    padding: 0 100px;
 }
 
 #profile-picture {
@@ -16,8 +17,8 @@
 
 
 #aboutme-container {
-    padding-top: 7%;
-    background-color: red;
+    padding-top: 4%;
+   
 }
 
 #aboutme-header {
