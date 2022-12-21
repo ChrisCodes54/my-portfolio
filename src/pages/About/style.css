@@ -18,9 +18,17 @@
 
 #aboutme-container {
     padding-top: 4%;
-   
+   background: red;
 }
 
 #aboutme-header {
     text-align: center;
 }
+
+#giggles {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
