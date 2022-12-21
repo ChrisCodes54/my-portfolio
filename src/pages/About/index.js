@@ -9,7 +9,7 @@ import './style.css'
 export default function About() {
 	return (
 		<main id="main-aboutme">
-			
+			<h1 id="aboutme-header">About Me</h1>
 		<Transitions>
 			<Container fluid id='aboutme-container'>
 				
