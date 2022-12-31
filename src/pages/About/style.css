@@ -1,27 +1,39 @@
 #picture-column {
     display: flex;
     justify-content: center;
-
+    
 }
 
-#aboutmetext-column {
+#aboutme-column {
     display: flex;
-  align-items: center;
+    align-items: center;
     text-align: center;
-    padding: 0 100px;
+    
+
+
 }
 
 #profile-picture {
     border-radius: 50%;
+    border: 5px solid #555;
 }
 
 
 #aboutme-container {
     padding-top: 4%;
-   
+
 }
 
 #aboutme-header {
     text-align: center;
+    padding-top: 1%;
 }
 
+#aboutme-text {
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-bottom: 1%; possibly needed to push text a little higher, but need to see with the final text*/
+}
+
+#rows {
+    margin: 1% 0 1%;
+}
