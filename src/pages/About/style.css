@@ -25,12 +25,16 @@
 }
 
 #aboutme-header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
     text-align: center;
     padding-top: 1%;
 }
 
 #aboutme-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding-right: 10%;
     /* padding-bottom: 1%; possibly needed to push text a little higher, but need to see with the final text*/
 }
 
