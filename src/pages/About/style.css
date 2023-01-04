@@ -1,14 +1,14 @@
 #picture-column {
     display: flex;
     justify-content: center;
-    
+
 }
 
 #aboutme-column {
     display: flex;
     align-items: center;
     text-align: center;
-    
+
 
 
 }
@@ -25,14 +25,14 @@
 }
 
 #aboutme-header {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
     padding-top: 1%;
 }
 
 #aboutme-text {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     padding-right: 10%;
     /* padding-bottom: 1%; possibly needed to push text a little higher, but need to see with the final text*/
@@ -45,17 +45,26 @@
 @media screen and (max-width: 1399px) {
     #aboutme-text {
         padding-top: 5%;
-      padding-right: 0%;
+        padding-right: 0%;
     }
- 
 
-  }
 
-  @media screen and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 200px) {
     img {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
     }
- 
+}
 
-  }
+@media screen and (max-width: 1399px) {
+    #aboutme-text {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    /* img {
+        height: 500px;
+        width: 500px;
+    } */
+}
