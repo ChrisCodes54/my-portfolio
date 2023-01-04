@@ -47,6 +47,15 @@
         padding-top: 5%;
       padding-right: 0%;
     }
-  
+ 
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    img {
+        height: 200px;
+        width: 200px;
+    }
+ 
 
   }
