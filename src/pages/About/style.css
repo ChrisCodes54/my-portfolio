@@ -1,16 +1,16 @@
+#main-aboutme {
+    margin-bottom: 8%;
+}
+
 #picture-column {
     display: flex;
     justify-content: center;
-
 }
 
 #aboutme-column {
     display: flex;
     align-items: center;
     text-align: center;
-
-
-
 }
 
 #profile-picture {
@@ -21,7 +21,6 @@
 
 #aboutme-container {
     padding-top: 4%;
-
 }
 
 #aboutme-header {
@@ -38,33 +37,34 @@
     /* padding-bottom: 1%; possibly needed to push text a little higher, but need to see with the final text*/
 }
 
-#rows {
-    margin: 1% 0 1%;
-}
 
-@media screen and (max-width: 1399px) {
-    #aboutme-text {
-        padding-top: 5%;
-        padding-right: 0%;
-    }
-
-
-}
-
-@media screen and (min-width: 200px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
     img {
         height: 300px;
         width: 300px;
     }
-}
-
-@media screen and (max-width: 1399px) {
     #aboutme-text {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
+        padding-right: 0;
     }
-    /* img {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    img {
         height: 500px;
         width: 500px;
-    } */
+        margin-bottom: 4%;
+    }
+
+    #main-aboutme {
+        margin-bottom: 2%;
+    }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
