@@ -74,6 +74,7 @@
     img {
         height: 700px;
         width: 700px;
+        margin-bottom: 0;
     }
     #aboutme-text {
         padding-right: 7%;
