@@ -1,5 +1,4 @@
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -15,17 +14,16 @@ export default function Header() {
           <Navbar.Collapse id="responsive-navbar-nav" >
             <Nav className="me-auto" id='font-size'>
 
-              <LinkContainer to="/">
-                <Nav.Link id='links'>About Me</Nav.Link>
-              </LinkContainer>
 
-              <LinkContainer to="/projects">
-                <Nav.Link id='links'>Projects</Nav.Link>
-              </LinkContainer>
+              <Nav.Link href='#aboutme' id='links'>About Me</Nav.Link>
 
-              <LinkContainer to="/contact">
-                <Nav.Link id='links'>Contact</Nav.Link>
-              </LinkContainer>
+
+
+              <Nav.Link href='#projects' id='links'>Projects</Nav.Link>
+
+
+
+              <Nav.Link href='#contact' id='links'>Contact</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>

@@ -40,7 +40,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    img {
+    #profile-picture {
         height: 300px;
         width: 300px;
         margin-bottom: 7%;
@@ -54,7 +54,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 601px) {
-    img {
+    #profile-picture {
         height: 550px;
         width: 550px;
         
@@ -71,7 +71,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1400px) {
-    img {
+    #profile-picture {
         height: 700px;
         width: 700px;
         margin-bottom: 0;
