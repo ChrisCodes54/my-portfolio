@@ -1,5 +1,7 @@
 #link-container {
     margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
 }
 
 #name-text {
