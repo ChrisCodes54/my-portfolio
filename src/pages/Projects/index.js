@@ -7,7 +7,7 @@ import './style.css'
 export default function Projects() {
   const cardData = [
 
-    { id: 1, Img: '"https://via.placeholder.com/150"', title: 'Note Taker', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo:'https://github.com/ChrisCodes54/note-taker', deployment:"" },
+    { id: 1, Img: '"https://via.placeholder.com/150"', title: 'Note Taker', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo:'https://github.com/ChrisCodes54/note-taker', deployment:"https://main.d2b9oyavnstb8q.amplifyapp.com/" },
 
     { id: 2, Img: "https://via.placeholder.com/150", title: 'Day Planner', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo:'https://github.com/ChrisCodes54/Day-Planner', deployment:""  },
 
@@ -27,7 +27,7 @@ export default function Projects() {
                 <Card.Title>{card.title}</Card.Title>
                 <Card.Text>{card.text}</Card.Text>
                 <Button href={card.repo} target="_blank" id="card-buttons" variant="primary">Repo</Button>
-                <Button id="card-buttons" variant="danger">Deployment</Button>
+                <Button href={card.deployment} target="_blank" id="card-buttons" variant="danger">Deployment</Button>
               </Card.Body>
             </Card>
           ))}
