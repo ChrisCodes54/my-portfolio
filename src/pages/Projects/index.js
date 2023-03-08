@@ -1,4 +1,5 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Transitions from "../transitions";
@@ -15,6 +16,7 @@ export default function Projects() {
 
   ]
   return (
+    <Container fluid>
     <div id="projects">
       <Transitions>
         <h1 id="projectheader">Projects</h1>
@@ -35,5 +37,6 @@ export default function Projects() {
 
       </Transitions>
     </div>
+    </Container>
   )
 }
