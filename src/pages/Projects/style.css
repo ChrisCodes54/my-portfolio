@@ -13,8 +13,8 @@
     text-align:center;
 }
 
-#card-buttons {
-    margin: 0 20px
+.cardImage {
+    height: 260px;
 }
 
 .card-container {
