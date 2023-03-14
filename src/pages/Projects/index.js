@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import dayplanner from '../../images/usingdayplanner.png';
 import notetaker from '../../images/notetaker.png'
+import techblog from '../../images/tech-blog-home.png'
 import Transitions from "../transitions";
 import './style.css'
 
@@ -15,7 +16,7 @@ export default function Projects() {
 
     { id: 2, img: dayplanner, title: 'Day Planner', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo: 'https://github.com/ChrisCodes54/Day-Planner' },
 
-    { id: 3, img: "https://placehold.jp/3d4070/ffffff/200x150.png", title: 'Tech-Blog', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo:'https://github.com/ChrisCodes54/tech-blog' },
+    { id: 3, img: techblog, title: 'Tech-Blog', text: "A blog style site from front end to back end. Allowing users to create an account, post, comment, and see other people's comments.", repo:'https://github.com/ChrisCodes54/tech-blog' },
 
   ]
   return (
