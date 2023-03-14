@@ -12,9 +12,9 @@ import './style.css'
 export default function Projects() {
   const cardData = [
 
-    { id: 1, img: notetaker, title: 'Note Taker', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo: 'https://github.com/ChrisCodes54/note-taker'},
+    { id: 1, img: notetaker, title: 'Note Taker', text: "The note taker is an application that allows user to save their notes where it is stored in a database.", repo: 'https://github.com/ChrisCodes54/note-taker'},
 
-    { id: 2, img: dayplanner, title: 'Day Planner', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", repo: 'https://github.com/ChrisCodes54/Day-Planner' },
+    { id: 2, img: dayplanner, title: 'Day Planner', text: "A Day Planner which allows for users to locally save all the things they need to do throughout the average work day (9am-5pm.) It dynamically will update the time every minute as well as color code between Past, Present, and Future hours.", repo: 'https://github.com/ChrisCodes54/Day-Planner' },
 
     { id: 3, img: techblog, title: 'Tech-Blog', text: "A blog style site from front end to back end. Allowing users to create an account, post, comment, and see other people's comments.", repo:'https://github.com/ChrisCodes54/tech-blog' },
 
